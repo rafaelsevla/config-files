@@ -1,0 +1,20 @@
+{
+  "prettier.singleQuote": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 13,
+  "window.zoomLevel": 0,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "emmet.triggerExpansionOnTab": true,
+  "breadcrumbs.enabled": true,
+  "python.formatting.autopep8Args": ["--max-line-length 120"],
+  "explorer.confirmDragAndDrop": false,
+  "workbench.editor.showTabs": true,
+  "material-icon-theme.showUpdateMessage": true,
+  "editor.rulers": [120],
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#ff4081"
+  }
+}
