@@ -1,6 +1,5 @@
 {
   "prettier.singleQuote": true,
-  "editor.formatOnSave": true,
   "explorer.confirmDelete": false,
   "editor.minimap.enabled": false,
   "editor.fontSize": 13,
@@ -13,8 +12,13 @@
   "explorer.confirmDragAndDrop": false,
   "workbench.editor.showTabs": true,
   "material-icon-theme.showUpdateMessage": true,
-  "editor.rulers": [120],
+  "editor.rulers": [80, 120],
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#ff4081"
-  }
+  },
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "files.associations": {
+    "*.html": "html"
+  },
 }
