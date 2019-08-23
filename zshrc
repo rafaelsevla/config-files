@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/myhome/.oh-my-zsh"
+export ZSH="/Users/rafaelcosta/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -96,14 +96,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # java e afins
-export ANDROID_HOME="/myhome/Library/Android/sdk"
+export ANDROID_HOME="/Users/rafaelcosta/Library/Android/sdk"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 # alias python
 alias pyserver='python3 -m http.server'
 alias pip-upgrade='pip install --upgrade pip'
 
-# alias internacionalization pybabel
+# alias internacionalization pt-br pybabel
 alias pybabel-init='pybabel extract -F src/babel.cfg -o src/messages.pot .'
 alias pybabel-write='pybabel update -d src/translations -l pt_BR -i src/messages.pot'
 alias pybabel-compile='pybabel compile -d src/translations'
@@ -122,3 +122,12 @@ alias rn-a='react-native run-android'
 alias rn-ios6='react-native run-ios --simulator="iPhone 6"'
 alias rn-ios7='react-native run-ios --simulator="iPhone 7"'
 alias rn-ios8='react-native run-ios --simulator="iPhone 8"'
+
+# alias git
+alias gdd='git add .'
+alias gd='git add'
+alias gc='git commit -m'
+alias gph='git push origin'
+alias gpl='git pull origin'
+alias gck='git checkout --'
+alias gckd='git checkout -- .'
