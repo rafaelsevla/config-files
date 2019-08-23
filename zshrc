@@ -124,9 +124,10 @@ alias rn-ios7='react-native run-ios --simulator="iPhone 7"'
 alias rn-ios8='react-native run-ios --simulator="iPhone 8"'
 
 # alias git
-alias gdd='git add .'
-alias gd='git add'
-alias gc='git commit -m'
+alias gadd='git add .'
+alias gad='git add'
+alias gcm='git commit -m'
+alias gdif='git diff'
 alias gph='git push origin'
 alias gpl='git pull origin'
 alias gck='git checkout --'
