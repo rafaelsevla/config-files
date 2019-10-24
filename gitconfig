@@ -1,0 +1,7 @@
+[user]
+	name = Rafael Costa
+	email = rafaelsevla@gmail.com
+
+[alias]
+    # warning - remove branches that have already been merged with master
+    dm = "!git branch --merged | egrep -v '(^\\*|master)' | xargs git branch -d"
