@@ -114,6 +114,7 @@ alias py-run='python manage.py runserver'
 alias py-migrations='python manage.py makemigrations'
 alias py-migrate='python manage.py migrate'
 alias py-shell='python manage.py shell'
+# alias py-shell='python manage.py shell_plus'
 alias py-super='python manage.py createsuperuser'
 alias py-url='python manage.py show_urls'
 
