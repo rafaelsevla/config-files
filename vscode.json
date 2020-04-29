@@ -3,22 +3,32 @@
   "explorer.confirmDelete": false,
   "editor.minimap.enabled": false,
   "editor.fontSize": 13,
+  "editor.tabCompletion": "on",
   "window.zoomLevel": 0,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Dracula",
-  "emmet.triggerExpansionOnTab": true,
   "breadcrumbs.enabled": true,
-  "python.formatting.autopep8Args": ["--max-line-length 120"],
   "explorer.confirmDragAndDrop": false,
   "workbench.editor.showTabs": true,
   "material-icon-theme.showUpdateMessage": true,
-  "editor.rulers": [80, 120],
+  "editor.rulers": [
+    80,
+    120
+  ],
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#ff4081"
   },
   "editor.tabSize": 2,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "files.associations": {
     "*.html": "html"
-  }
+  },
+  "prettier.semi": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none",
+  "editor.suggest.statusBar.visible": true,
+  "dart.debugExternalLibraries": true,
+  "dart.debugSdkLibraries": true,
+  "emmet.triggerExpansionOnTab": true
 }
